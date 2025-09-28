@@ -1,8 +1,7 @@
 import requests
 
 url = 'https://adventofcode.com/2024/day/5/input'
-#session = '' # get from cookie
-session = '53616c7465645f5f56206da822b1dc5378b576457012dc580f82a7780ed3c46b8e1d7004abca6f15d97290ea0df401b2f0ab2cbdbfa38901ffbc2dbf2e50354d'
+session = '' # get from cookie
 res = requests.get(url=url, cookies={'session': session})
 res = res.text.splitlines()
 
