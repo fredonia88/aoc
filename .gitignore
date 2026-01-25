@@ -1,2 +1,4 @@
 inputs/
-jupyternotebooks/
+venvs/
+notebooks/
+.vscode/
